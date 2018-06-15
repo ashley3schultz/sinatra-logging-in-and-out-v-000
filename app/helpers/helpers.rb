@@ -3,7 +3,7 @@ class Helpers
     User.find(session[:user_id])
   end
 
-  def self.is_logged_in?(sesssion)
+  def self.is_logged_in?(session)
     #session[:user_id]
     binding.pry
   end
