@@ -4,7 +4,7 @@ class Helpers
   end
 
   def self.is_logged_in?(sesssion)
-    session[:user_id]
+    #session[:user_id]
     binding.pry
   end
 end
